@@ -38,11 +38,14 @@ export default function WordCard(props){
 
     return (
         <div>
-            {
-                state.chars.map((c, i) => 
-                    <CharacterCard value={c} key={i} activationHandler/>
-                )
-            }
-        </div>
-    )
+           {state.chars.map((c, i) => (
+           <CharacterCard
+           value={c}
+           key={i}
+           activationHandler={activationHandler}
+           attempt={state.attempt}
+        />
+      ))}
+    </div>
+    );
 }
