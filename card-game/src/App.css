@@ -1,13 +1,29 @@
+body {
+  background-image: fix;
+  font-family: "Courier New", Courier, monospace;
+  border: 10px solid rgba(228, 183, 0, 0.884);
+  text-align: center;
+  margin-bottom: -10px;
+  text-align: center;
+  background-color: rgba(224, 219, 199, 0.884);
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
 h1 {
   font-size: 40px;
   text-align: center;
   margin-bottom: -10px;
   text-align: center;
-  background-color: rgba(70, 70, 70, 0.884);
+  background-color: rgba(228, 183, 0, 0.884);
   margin-top: 40px;
   margin-bottom: -0.5px;
   margin-left: -0.5px;
-  color: rgb(255, 255, 255);
+  color: rgb(2, 2, 2);
   font-family: Arial;
   padding: 28px;
 }
@@ -19,19 +35,19 @@ p {
 
 h2 {
   text-align: center;
-  background-color: rgba(70, 70, 70, 0.884);
+  background-color: rgba(228, 183, 0, 0.884);
   font-size: 20px;
-  margin-top: 200px;
-  margin-bottom: -0.5px;
-  margin-left: -0.5px;
-  color: rgb(255, 255, 255);
+  margin-top: -0.5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  color: rgb(1, 1, 1);
   font-family: Arial;
-  padding: 28px;
+  padding: 20px;
 }
 
 .button {
-  background-color: rgb(70, 70, 70);
-  color: white;
+  background-color: rgb(228, 183, 0, 0.884);
+  color: rgb(7, 7, 7);
   padding: 15px 32px;
   font-size: 25px;
   margin: 40px 150px;
@@ -49,7 +65,7 @@ h2 {
  text-align: center;
  width: 3em;
  font-size: 2em;
- box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ box-shadow: 0 4px 8px 0 rgba(225, 8, 8, 0.2);
  margin: 1em;
  user-select: none;
 }
@@ -57,4 +73,5 @@ h2 {
 .activeCard {
  color: red;
  background: pink;
+ border-bottom: 6px solid rgb(161, 91, 91);
 }
